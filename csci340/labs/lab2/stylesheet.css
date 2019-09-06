@@ -1,0 +1,9 @@
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+.title {
+  color: white;
+  font-family: "Muli", sans-serif;
+}

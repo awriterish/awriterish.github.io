@@ -5,5 +5,20 @@ body{
 
 .title {
   color: white;
+}
+
+.font1 {
   font-family: "Muli", sans-serif;
+}
+
+.font2{
+  font-family: 'Quicksand', sans-serif;
+}
+
+.font3{
+  font-family: 'Assistant', sans-serif;
+}
+
+.nav-tabs li{
+  transition: all 0.15s;
 }

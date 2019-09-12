@@ -5,6 +5,7 @@ body{
 
 .title {
   color: white;
+  font-family: "Muli", sans-serif;
 }
 
 .font1 {
@@ -21,4 +22,12 @@ body{
 
 .nav-tabs li{
   transition: all 0.15s;
+}
+
+.nav {
+  border-bottom: 1px solid #49054f;
+}
+
+.nav li {
+  color: #f8adff;
 }

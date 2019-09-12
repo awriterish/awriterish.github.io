@@ -25,7 +25,6 @@
         <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
         <li><a data-toggle="tab" href="#dice">Dice</a></li>
         <li><a data-toggle="tab" href="#spells">Spells</a></li>
-        <li><a data-toggle="tab" href="#monsters">Monsters</a></li>
       </ul>
 
       <div class="container" id="alrt">
@@ -115,9 +114,66 @@
         </div>
         <div id="spells" class="tab-pane fade">
             <h3 class="title">Spells</h3>
-        </div>
-        <div id="monsters" class="tab-pane fade">
-            <h3 class="title">Monsters</h3>
+            <div class="panel-goup" id="accordion">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a href="#magicmissile" data-parent="#accordion" data-toggle="collapse">Magic Missile</a>
+                  </h4>
+                </div>
+                <div class="panel-collapse collapse" id="magicmissile">
+                  <div class="panel-body">
+                    <strong>Casting time:</strong> 1 action <br>
+                    <strong>Base level:</strong> 1<br>
+                    <strong>Range:</strong> 120 feet<br>
+                    <strong>Compontents:</strong> V, S<br>
+                    <strong>Duration:</strong> Instantaneous<br>
+                    <strong>Classes: </strong>Sorcerer, Wizard<br>
+                    You create three glowing darts of magical force. Each dart hits a creature of your choice that you can see within range. A dart deals 1d4 + 1 force damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several.<br>
+                    <strong>At Higher Levels:</strong> When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart for each slot above 1st.
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a href="#pocket" data-parent="#accordion" data-toggle="collapse">Pocket Dimension</a>
+                  </h4>
+                </div>
+                <div class="panel-collapse collapse" id="pocket">
+                  <div class="panel-body">
+                    <strong>Casting time:</strong> 1 action <br>
+                    <strong>Base level:</strong> 2<br>
+                    <strong>Range:</strong> Self<br>
+                    <strong>Compontents:</strong> V, S<br>
+                    <strong>Duration:</strong> 1 minute<br>
+                    <strong>Classes: </strong> Transmutation<br>
+                    You create a small pocket dimension in the air that holds items in a vacuum. As an action a creature can interact with the 2 ft. diameter portal and put items in or pull items out, but the portal stays within 3 ft. of you. The dimension can hold up to 20 lb. and has a dimension of a 2 ft. cube.When the portal closes and there is something stuck it will be expelled from it.
+You can only have one Pocket Dimension at a time, and not having the spell anymore will not remove or replace your Pocket Dimension.<br>
+                    <strong>At Higher Levels:</strong>When you cast this spell using a spell slot of 3rd level or higher, you increase the size of the cube by 1 ft. and the weight by 10 lb for each slot level above 2nd. You must use a spell slot appropriate for the contents of the Pocket Dimension.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a href="#nicro" data-parent="#accordion" data-toggle="collapse">Nicrotic Siphon</a>
+                </h4>
+              </div>
+              <div class="panel-collapse collapse" id="nicro">
+                <div class="panel-body">
+                  <strong>Casting time:</strong> 1 action <br>
+                  <strong>Base level:</strong> Cantrip<br>
+                  <strong>Range:</strong> 5 ft<br>
+                  <strong>Compontents:</strong> S, M<br>
+                  <strong>Duration:</strong> 1 round<br>
+                  <strong>Classes: </strong> Necromancy<br>
+                  <br>As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and shadowy wisps enshroud the target until the start of your next turn. If the target willingly makes a melee weapon attack against any other creature during the spell's duration, the target of this spell takes 1d4 necrotic damage and the creature being attacked by this target gains 1d4 temporary hit points as the tendrils of dark energy transfer life essence from one to another, and the spell ends.
+                  <strong>At Higher Levels:</strong> This spell’s damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d8 necrotic damage to the target, and the temporary hit points gained by the target of the subsequent melee attack, increases to 2d4. Both damage and temporary hit point rolls increase by 1d8/1d4 at 11th level and 17th level.
+                </div>
+              </div>
+            </div>
         </div>
       </div>
     </div>

@@ -48,3 +48,16 @@ body{
   font-family: 'Assistant', sans-serif;
   color: #bbb;
 }
+
+.dice{
+  height: auto;
+}
+
+img {
+  width: 100%;
+}
+
+
+.lightbg {
+  background-color: rgba(70,70,70,0.1);
+}

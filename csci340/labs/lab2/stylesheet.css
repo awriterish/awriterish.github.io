@@ -20,14 +20,31 @@ body{
   font-family: 'Assistant', sans-serif;
 }
 
-.nav-tabs li{
-  transition: all 0.15s;
-}
-
-.nav {
+.navtabs {
+  transition: all, 0.15s;
+  font-family: "Quicksand", sans-serif;
+  list-style-type: none;
+  padding-left: 0;
+  padding-top: 5px;
+  width: 100%;
   border-bottom: 1px solid #49054f;
 }
 
-.nav li {
-  color: #f8adff;
+.navtabs li {
+  display: inline-block;
+  padding-right: 15px;
+  font-size: 20px;
+}
+
+.navtabs li a {
+  color: #5a45ba;
+}
+
+.navtabs li a:hover {
+  color: #4a35aa;
+}
+
+.text {
+  font-family: 'Assistant', sans-serif;
+  color: #bbb;
 }
